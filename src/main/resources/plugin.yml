@@ -1,0 +1,16 @@
+name: FrozenForgePlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that shows player kills and displays the Discord server link.
+api-version: "1.21"
+commands:
+  team:
+    description: Sets your team and displays it in the tab list.
+    usage: /team <teamName>
+  kills:
+    description: Shows your kills.
+    usage: /kills
+  discord:
+    description: Shows the Discord server link.
+    usage: /discord
